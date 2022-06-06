@@ -3,7 +3,8 @@
   # Read Me Generator
 
   ## Description
-  Generates Read Me file based on user input
+  A Read Me generator that takes user input using node.js and inquirer and autofills the content
+  ![Read Me Image](./ReadMeExample.jpg)
 
   ## Table of contents
   - [Installation](#Installation)
@@ -14,20 +15,21 @@
   - [Questions](#Questions)
 
   ## Installation
-  Please download Node and use npm init and npm install inquirer
+  Install Node and type npm init and npm install inquirer
 
   ## Usage
-  Please type node index.js and refer to the video below
-  [Watch the video](https://drive.google.com/file/d/1dzN1R1PdFg46-XTzC-Fg3VY9f_dFj5Qx/view)
+  Run "node index.js" in your terminal after downloading the necessary dependencies
+  [Watch the video](https://drive.google.com/file/d/1BU3mawMrZc_rwoywFP3lGs-4a46dxI0x/view)
+  <iframe src="https://drive.google.com/file/d/1BU3mawMrZc_rwoywFP3lGs-4a46dxI0x/preview" width="640" height="480"></iframe>
 
   ## How to Contribute 
   Please refer to https://www.contributor-covenant.org/
   
   ## License
-  This project is licensed under Open-source
+  This project is licensed under MIT
 
   ## Tests
-  Please type node index.js and see if questions pop up
+  Please use node index.js to see if questions are populating
 
   ## Questions
   If you have any questions, please contact me at anukazan@gmail.com. You can view my projects at https://github.com/AnukaZan.
