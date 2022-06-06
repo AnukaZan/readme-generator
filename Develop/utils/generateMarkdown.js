@@ -12,34 +12,39 @@ function renderLicenseSection(license) {}
 
 //changed from function to const
 //added the README text content
-const generateMarkdown = data => {
-  return `# ${data.title}
+const generateMarkdown = answers => {
+  return `
+  
+  # ${answers.title}
 
   ##Description
-  ${data.description}
+  ${answers.description}
 
   ##Table of contents
   * [Installation] (#installation)
   * [Usage](#usage)
+  * [How To Contribute](#contributing)
   * [License](#license)
-  * [Contributing](#contributing)
   * [Tests](#tests)
   * [Questions](#questions)
 
-  ## How To Install
-  ${data.install}
+  ##Installation
+  ${answers.installation}
 
   ##Usage
-  ${data.usage}
+  ${answers.usage}
 
-  ## How to Contribute 
-  ${data.contribute}
+  ##How to Contribute 
+  ${answers.contribute}
   
   ##License
-  This project is licensed under ${data.license}
+  This project is licensed under ${answers.license}
 
-  ## Questions
-  If you have any questions, please contact me at ${data.email}. You can view my projects at https://github.com/${data.github}.
+  ##Tests
+  ${answers.tests}
+
+  ##Questions
+  If you have any questions, please contact me at ${answers.email}. You can view my projects at https://github.com/${answers.github}.
 `;
 }
 
