@@ -19,9 +19,11 @@
 
   ## Usage
   Run "node index.js" in your terminal after downloading the necessary dependencies
+ 
   
-  [Watch the video](https://drive.google.com/file/d/1BU3mawMrZc_rwoywFP3lGs-4a46dxI0x/view)
   ![Read Me GIF](./Read-Me-Generator.gif)
+   
+   [Watch the video](https://drive.google.com/file/d/1BU3mawMrZc_rwoywFP3lGs-4a46dxI0x/view)
 
   ## How to Contribute 
   Please refer to https://www.contributor-covenant.org/
