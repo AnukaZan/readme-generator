@@ -17,34 +17,36 @@ const generateMarkdown = answers => {
   
   # ${answers.title}
 
-  ##Description
+  ## Description
   ${answers.description}
+  ![Read Me Image](./ReadMeExample.jpg)
 
-  ##Table of contents
-  * [Installation] (#installation)
-  * [Usage](#usage)
-  * [How To Contribute](#contributing)
-  * [License](#license)
-  * [Tests](#tests)
-  * [Questions](#questions)
+  ## Table of contents
+  - [Installation](#Installation)
+  - [Usage](#Usage)
+  - [How To Contribute](#How-to-Contribute)
+  - [License](#License)
+  - [Tests](#Tests)
+  - [Questions](#Questions)
 
-  ##Installation
+  ## Installation
   ${answers.installation}
 
-  ##Usage
+  ## Usage
   ${answers.usage}
-  [![Watch the video](https://drive.google.com/file/d/1dzN1R1PdFg46-XTzC-Fg3VY9f_dFj5Qx/view)
+  [Watch the video](https://drive.google.com/file/d/1BU3mawMrZc_rwoywFP3lGs-4a46dxI0x/view)
+  <iframe src="https://drive.google.com/file/d/1BU3mawMrZc_rwoywFP3lGs-4a46dxI0x/preview" width="640" height="480"></iframe>
 
-  ##How to Contribute 
+  ## How to Contribute 
   ${answers.contribute}
   
-  ##License
+  ## License
   This project is licensed under ${answers.license}
 
-  ##Tests
+  ## Tests
   ${answers.tests}
 
-  ##Questions
+  ## Questions
   If you have any questions, please contact me at ${answers.email}. You can view my projects at https://github.com/${answers.github}.
 `;
 }
