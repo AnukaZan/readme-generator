@@ -34,8 +34,9 @@ const generateMarkdown = answers => {
 
   ## Usage
   ${answers.usage}
+  
   [Watch the video](https://drive.google.com/file/d/1BU3mawMrZc_rwoywFP3lGs-4a46dxI0x/view)
-  <iframe src="https://drive.google.com/file/d/1BU3mawMrZc_rwoywFP3lGs-4a46dxI0x/preview" width="640" height="480"></iframe>
+  
 
   ## How to Contribute 
   ${answers.contribute}
