@@ -82,7 +82,7 @@ const writeToFile = data => {
         }
          //throw err; //if error then stop execution of code
 
-        console.log("Your README has been generated")
+        console.log("HOORAY! Your README has been generated")
     })
 };
 

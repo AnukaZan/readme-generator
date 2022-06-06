@@ -33,6 +33,7 @@ const generateMarkdown = answers => {
 
   ##Usage
   ${answers.usage}
+  [![Watch the video](https://drive.google.com/file/d/1dzN1R1PdFg46-XTzC-Fg3VY9f_dFj5Qx/view)
 
   ##How to Contribute 
   ${answers.contribute}
